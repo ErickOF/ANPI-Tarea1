@@ -62,7 +62,7 @@ endfunction
 %
 % Yun-Petkovic Method
 %
-% Métodos iterativos aplicados a la ecuación de Kepler. Page 112.
+% MÃ©todos iterativos aplicados a la ecuaciÃ³n de Kepler. Page 112.
 %
 % Arguments:
 %   f  {string} - polynomial whose solution must be found
