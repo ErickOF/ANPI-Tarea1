@@ -33,7 +33,7 @@ The function must return the following:
 
 2. *iter*, which represents the number of iterations that were used to approximate the zero of the function with a tolerance *tol*.
 
-3. If *graf* $= 1$ or the *graf* parameter is omitted, then yes will display the graph of iterations ($k$) versus errors ($|f(xk)|$) of the iterative method. Each graph must have a title, and the axes must be labeled.
+3. If *graf* $= 1$ or the *graf* parameter is omitted, then it will display the graph of iterations ($k$) versus errors ($|f(xk)|$) of the iterative method. Each graph must have a title, and the axes must be labelled.
 
 Each implemented iterative method must stop if the respective denominator is zero in any of the iterations (to avoid division by zero). In this case, the method shows the results obtained up to that point.
 
@@ -42,8 +42,8 @@ Each implemented iterative method must stop if the respective denominator is zer
 *  The name of each package must be **SolNE** (solving nonlinear equations).
 
 * **In GNU Octave:** To create the computer package, use the information found at the following link: https://docs.octave.org/latest/Creating-Packages.html. The function names of the selected methods must have the following structure:
-    * $sne\_ud\_\#$, if it is a method that includes the calculation of derivatives (solving nonlinear equations - using derivative).
-    * $sne\_fd\_\#$, if it is a method that does not include the calculation of derivatives (solving nonlinear equations - free derivative).
+    * *sne_ud_#*, if it is a method that includes the calculation of derivatives (solving nonlinear equations - using derivative).
+    * sne_fd_#*, if it is a method that does not include the calculation of derivatives (solving nonlinear equations - free derivative).
 
 * **Python package:** To create each computational package, use the information found in the following link: https://docs.python.org/3/tutorial/modules.html. The package must contain the following 2 files:
     * *ud.py*, which contains the 6 functions of the iterative methods that include the calculation of derivatives. The name structure of such functions must be $sne$ ud #.
@@ -53,7 +53,7 @@ Each implemented iterative method must stop if the respective denominator is zer
 
 * Each function implemented in GNU Octave and Python must have its helper. This help must indicate what the function consists of, which are the initial parameters and which are the output parameters.
 
-* For each computer package, they must develop a user manual, which must be developed using LaTeX. The user manual must contain the following:
+* For each computer package, a user manual must be developed, which must be in LaTeX. The user manual must contain the following:
 
     * Cover with the package name, name of the TEC, name of the course, and the name of the group members.
     * Table of Contents.
